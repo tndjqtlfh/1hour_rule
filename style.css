@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+body{
+    font-family: "GmarketSansMedium", sans-serif;
+    color:#FFFFFF;
+    background-color: #5B2386;
+}
+.container{
+    max-width: 1200px;
+    margin:80px auto;
+}
+.header {
+    text-align: center;
+}
+
+.header-img {
+    position: relative;
+    display: inline-block;
+    margin-bottom:24px ;
+}
+
+.title {
+    width: 564px;
+    height:112px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.clock {
+    width: 261px;
+    height: 265px;
+    position: absolute;              
+    z-index: 1;
+}
+
+.tag {
+    font-family:"OTEnjoystoriesBA";
+    color:#F5DF4D;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 24px;
+
+}
+.quotes{
+    fill:black;
+}
+.phrase{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.input1{
+   /* width:228px;
+   height: 56px; */
+   border-radius:8px;
+   padding: 16px 40px 16px 40px;
+
+
+}
+.question{
+    background-color: #FCEE21;
+    color:#5B2386;
+    border-radius: 12px;
+    padding: 20px 50px 20px 50px;
+    /* font-size: 24px; */
+    /* align-items: center; */
+    font-weight: bold ;
+    display: flex;
+    justify-content: center;
+    
+}
+.big-text{
+    font-size: 72px;
+    font-weight: 700px;
+    line-height: 100%;
+}
+.go-btn
+{
+     background-color: #FCEE21;
+    color:#5B2386;
+    border-radius: 12px;
+    padding: 20px 50px 20px 50px;
+    font-weight: bold ;
+}
+.share-btn{
+  background-color: #FFFFFF;
+  color:#5B2386;
+  border-radius: 12px;
+    padding: 20px 50px 20px 50px;
+    font-weight: bold ;
+
+}
+.logo{
+  width: 168px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.text2{
+  font-family:Noto Sans KR ;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+
+}
+.hidden{
+    display: none;
+}
+/* 로고 백그라운드 시계를 넣어서 조정 */
+
+
+
+
+
+
+
+
