@@ -42,30 +42,34 @@ body{
     max-width: 1200px;
     margin:80px auto;
 }
+.header-hidden{
+  display:none;
+}
 .header {
     text-align: center;
 }
 
 .header-img {
+    height: 200px;
     position: relative;
     display: inline-block;
     margin-bottom:24px ;
+    background-image: url('./img/clock.png');
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size: contain;
 }
 
 .title {
     width: 564px;
     height:112px;
     display: block;
+    margin-top: 50px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
+    
 }
 
-.clock {
-    width: 261px;
-    height: 265px;
-    position: absolute;              
-    z-index: 1;
-}
 
 .tag {
     font-family:"OTEnjoystoriesBA";
