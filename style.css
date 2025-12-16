@@ -59,7 +59,9 @@ body{
     background-repeat: no-repeat; 
     background-size: contain;
 }
-
+.main-hidden{
+  display: none;
+}
 .title {
     width: 564px;
     height:112px;
