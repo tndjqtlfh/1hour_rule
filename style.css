@@ -34,6 +34,7 @@
       format("opentype");
 }
 
+
 body{
     font-family: "GmarketSansMedium", sans-serif;
     color:#FFFFFF;
@@ -133,7 +134,7 @@ body{
    /* width:228px;
    height: 56px; */
    border-radius:8px;
-   padding: 16px 40px 16px 40px;
+   padding: 16px 40px ;
 
 
 }
@@ -226,6 +227,113 @@ body{
     display: none;
 }
 /* 로고 백그라운드 시계를 넣어서 조정 */
+
+@media screen and (max-width: 360px) {
+   
+  .container{
+    padding:35px 15px;
+  }
+  .header-img{
+    height:130px;
+    margin-bottom: 32px;
+  }
+  .title{
+    width:278px;
+    height:54px;
+    margin-top:36px ;
+  }
+  .tag{
+    font-size: 22px;
+    line-height: 100%;
+    
+  }
+  .intro-section{
+    margin-top:70px;
+    width:330px;
+
+  }
+  .phrase{
+    font-size: 14px;
+    width:290px;
+  }
+  .p-text{
+    font-size: 14px;
+  }
+  .main{
+    gap:50px;
+  }
+  .text{
+    font-size:14px;
+  }
+  .input1{
+    
+    padding: 12px 35px;
+  }
+  .btn-wrap{
+    
+    gap:0px;
+  }
+  .click{
+    width:43px ;
+    height:48px;
+  }
+  .question{
+    font-size:14px;
+    font-weight: 500;
+    padding:20px 38px;
+    width:240px;
+    height:72px;
+  }
+  .big-text{
+    font-size :24px;
+    font-weight: 500px;
+  }
+  .action{
+    width:313px;
+  }
+  .btn{
+    padding:16px 24px;
+  }
+  .footer{
+    margin-top:70px ;
+  }
+
+
+ .modal-content {
+    width:330px;
+    height:500px;
+    max-width: 300px;
+    padding: 40px 41px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .modal-content img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+  }
+
+  .modal-content h2 {
+    font-size: 64px;
+    margin-bottom: 12px;
+  }
+
+  .modal-content p {
+    font-size: 24px;
+    
+  }
+
+  .end-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 16px;
+  }
+}
+
+
+
 
 
 
